@@ -1,0 +1,99 @@
+body, header, nav, ul, li, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  header {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+
+  }
+  
+  .logo img {
+    display: flex;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #100101;
+    background-color: #080101;
+    margin: 0 auto;
+    
+
+    
+
+
+  }
+  
+  .navigation-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    text-align: right;
+    padding: 0 20px;
+
+  }
+  
+  .navigation-links li {
+    margin-right: -20px;
+  }
+  
+  .navigation-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .hero-section {
+    background-image: url('Background.jpg');
+    background-size: justify;
+    background-position: cover;
+    padding: 200px;
+    text-align: center;
+    color: #fff;
+    }
+  
+  .hero-section h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    text-align: left;
+    text-shadow: 2px 2px 2px #050000;
+
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+    text-align: left;
+    text-shadow: 2px 2px 2px #070000;
+  }
+  
+  .bta-button {
+    display: inline-block;
+    padding: 5px 100px;
+    background-color: rgba(245, 220, 220, 0.603);
+    color: #0a0000;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #0b0b0b;
+    padding: 20px;
+    text-align: left;
+  }
+  
